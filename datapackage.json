@@ -1,0 +1,2942 @@
+{
+  "name": "ireland-carbon-budget-scenarios-2021",
+  "title": "Carbon Budget Scenarios for Ireland's Energy System, 2021-50",
+  "licenses": [
+    {
+      "name": "CC BY 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "title": "Creative Commons Attribution 4.0 International License"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/agr_fec.csv",
+      "name": "agr_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-caf_fec.csv",
+      "name": "ind-caf_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-con_fec.csv",
+      "name": "ind-con_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-eoe_fec.csv",
+      "name": "ind-eoe_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-fab_fec.csv",
+      "name": "ind-fab_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-mae_fec.csv",
+      "name": "ind-mae_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-map_fec.csv",
+      "name": "ind-map_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-nem_fec.csv",
+      "name": "ind-nem_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-oma_fec.csv",
+      "name": "ind-oma_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-onm_fec.csv",
+      "name": "ind-onm_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-px4_fec.csv",
+      "name": "ind-px4_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-rap_fec.csv",
+      "name": "ind-rap_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-tap_fec.csv",
+      "name": "ind-tap_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-tem_fec.csv",
+      "name": "ind-tem_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind-wap_fec.csv",
+      "name": "ind-wap_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind_emissions-co2.csv",
+      "name": "ind_emissions-co2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/ind_fec.csv",
+      "name": "ind_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/pwr_cap-n.csv",
+      "name": "pwr_cap-n",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/pwr_cap.csv",
+      "name": "pwr_cap",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/pwr_emissions-co2.csv",
+      "name": "pwr_emissions-co2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/pwr_gen-elcc.csv",
+      "name": "pwr_gen-elcc",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/pwr_gen-hetc.csv",
+      "name": "pwr_gen-hetc",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_bld-n_type.csv",
+      "name": "rsd_bld-n_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_bld_type.csv",
+      "name": "rsd_bld_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_fec.csv",
+      "name": "rsd_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_otherservices_fuelcons.csv",
+      "name": "rsd_otherservices_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_rtft-att_ncap.csv",
+      "name": "rsd_rtft-att_ncap",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_rtft-det_ncap.csv",
+      "name": "rsd_rtft-det_ncap",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_rtft_nrg_savings.csv",
+      "name": "rsd_rtft_nrg_savings",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_services_co2emissions.csv",
+      "name": "rsd_services_co2emissions",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_services_energycons.csv",
+      "name": "rsd_services_energycons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_waterspace_fuelcons.csv",
+      "name": "rsd_waterspace_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_ws-apt_fuelcons.csv",
+      "name": "rsd_ws-apt_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_ws-apt_ncap.csv",
+      "name": "rsd_ws-apt_ncap",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_ws-att_fuelcons.csv",
+      "name": "rsd_ws-att_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_ws-att_ncap.csv",
+      "name": "rsd_ws-att_ncap",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_ws-det_fuelcons.csv",
+      "name": "rsd_ws-det_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/rsd_ws-det_ncap.csv",
+      "name": "rsd_ws-det_ncap",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv-com_fec_ws.csv",
+      "name": "srv-com_fec_ws",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv-dcs_eh.csv",
+      "name": "srv-dcs_eh",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv-dcs_eh_dh-grid.csv",
+      "name": "srv-dcs_eh_dh-grid",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv-pub_fec_ws.csv",
+      "name": "srv-pub_fec_ws",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv_fec.csv",
+      "name": "srv_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv_fec_dcs.csv",
+      "name": "srv_fec_dcs",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/srv_fec_service.csv",
+      "name": "srv_fec_service",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sup_biodst.csv",
+      "name": "sup_biodst",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sup_bioeth.csv",
+      "name": "sup_bioeth",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sup_biogas.csv",
+      "name": "sup_biogas",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sup_hydrogen.csv",
+      "name": "sup_hydrogen",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_co2price.csv",
+      "name": "sys_co2price",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_cost_sector.csv",
+      "name": "sys_cost_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_cost_type.csv",
+      "name": "sys_cost_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_dacs.csv",
+      "name": "sys_dacs",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_emissions_co2_domestic.csv",
+      "name": "sys_emissions_co2_domestic",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-biodst_sector.csv",
+      "name": "sys_fec-biodst_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-bioeth_sector.csv",
+      "name": "sys_fec-bioeth_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-biogas_sector.csv",
+      "name": "sys_fec-biogas_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-biowoox_sector.csv",
+      "name": "sys_fec-biowoox_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-coa_sector.csv",
+      "name": "sys_fec-coa_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-elcd_sector.csv",
+      "name": "sys_fec-elcd_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-gasnat_sector.csv",
+      "name": "sys_fec-gasnat_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-h2_sector.csv",
+      "name": "sys_fec-h2_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-hetd_sector.csv",
+      "name": "sys_fec-hetd_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-hfo_sector.csv",
+      "name": "sys_fec-hfo_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-lpg_sector.csv",
+      "name": "sys_fec-lpg_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-oildst_sector.csv",
+      "name": "sys_fec-oildst_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-oilgsl_sector.csv",
+      "name": "sys_fec-oilgsl_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-oilker_sector.csv",
+      "name": "sys_fec-oilker_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec-peat_sector.csv",
+      "name": "sys_fec-peat_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec_fuel.csv",
+      "name": "sys_fec_fuel",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec_fuel_2.csv",
+      "name": "sys_fec_fuel_2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_fec_sector.csv",
+      "name": "sys_fec_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_lumpinv_sector.csv",
+      "name": "sys_lumpinv_sector",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_nrg-export.csv",
+      "name": "sys_nrg-export",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_nrg-import.csv",
+      "name": "sys_nrg-import",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_nrg-ind_supply.csv",
+      "name": "sys_nrg-ind_supply",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/sys_tped.csv",
+      "name": "sys_tped",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra-land_lumpinv.csv",
+      "name": "tra-land_lumpinv",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_avidom_fuelcons.csv",
+      "name": "tra_avidom_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_aviint_fuelcons.csv",
+      "name": "tra_aviint_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_emissions-co2.csv",
+      "name": "tra_emissions-co2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_f-htruck-n_type.csv",
+      "name": "tra_f-htruck-n_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_f-htruck_type.csv",
+      "name": "tra_f-htruck_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_f-ltruck-n_type.csv",
+      "name": "tra_f-ltruck-n_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_f-ltruck_type.csv",
+      "name": "tra_f-ltruck_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_f-mtruck-n_type.csv",
+      "name": "tra_f-mtruck-n_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_f-mtruck_type.csv",
+      "name": "tra_f-mtruck_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_fec.csv",
+      "name": "tra_fec",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_freight_land_fuelcons.csv",
+      "name": "tra_freight_land_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_freight_land_mode.csv",
+      "name": "tra_freight_land_mode",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_nav_fuelcons.csv",
+      "name": "tra_nav_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_oth_fuelcons.csv",
+      "name": "tra_oth_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_p-car-n_type.csv",
+      "name": "tra_p-car-n_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_p-car_type.csv",
+      "name": "tra_p-car_type",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_passenger_land_distance.csv",
+      "name": "tra_passenger_land_distance",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_passenger_land_fuelcons.csv",
+      "name": "tra_passenger_land_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_passenger_land_mode-l.csv",
+      "name": "tra_passenger_land_mode-l",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_passenger_land_mode-m.csv",
+      "name": "tra_passenger_land_mode-m",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_passenger_land_mode-s.csv",
+      "name": "tra_passenger_land_mode-s",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_passenger_land_mode.csv",
+      "name": "tra_passenger_land_mode",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/tra_turs_fuelcons.csv",
+      "name": "tra_turs_fuelcons",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenarioName",
+            "type": "string"
+          },
+          {
+            "name": "seriesName",
+            "type": "string"
+          },
+          {
+            "name": "period",
+            "type": "integer"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
