@@ -2,4 +2,6 @@
 
 # Carbon Budget Scenarios for Ireland's Energy System, 2021-50
 
+[![Frictionless](https://github.com/MaREI-EPMG/ireland-carbon-budget-scenarios-2021/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=MaREI-EPMG&repo=ireland-carbon-budget-scenarios-2021&flow=frictionless)
+
 This repository constains energy system scenarios for Ireland meeting decarbonisation targets for 2030 and 2050 using the TIMES-Ireland Model (TIM).
