@@ -36,7 +36,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Agriculture Final Energy Consumption"
     },
     {
       "path": "data/ind-caf_fec.csv",
@@ -65,7 +66,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Chemicals and man-made fibers"
     },
     {
       "path": "data/ind-con_fec.csv",
@@ -94,7 +96,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Construction"
     },
     {
       "path": "data/ind-eoe_fec.csv",
@@ -123,7 +126,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Electrical and optical equipment"
     },
     {
       "path": "data/ind-fab_fec.csv",
@@ -152,7 +156,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Food and beverages"
     },
     {
       "path": "data/ind-mae_fec.csv",
@@ -181,7 +186,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Machinery and equipment"
     },
     {
       "path": "data/ind-map_fec.csv",
@@ -210,7 +216,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Basic metals and fabricated metal products"
     },
     {
       "path": "data/ind-nem_fec.csv",
@@ -239,7 +246,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Non-energy mining"
     },
     {
       "path": "data/ind-oma_fec.csv",
@@ -268,7 +276,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Other manufactuting"
     },
     {
       "path": "data/ind-onm_fec.csv",
@@ -297,7 +306,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Other non-metalic mineral products"
     },
     {
       "path": "data/ind-px4_fec.csv",
@@ -326,7 +336,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Pulp, paper, publishing and printing"
     },
     {
       "path": "data/ind-rap_fec.csv",
@@ -355,7 +366,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Rubber and plastic products"
     },
     {
       "path": "data/ind-tap_fec.csv",
@@ -384,7 +396,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Textiles and textile products"
     },
     {
       "path": "data/ind-tem_fec.csv",
@@ -413,7 +426,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Transport equipment manufacture"
     },
     {
       "path": "data/ind-wap_fec.csv",
@@ -442,7 +456,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Wood and wood products"
     },
     {
       "path": "data/ind_emissions-co2.csv",
@@ -471,7 +486,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "CO2 Emissions"
     },
     {
       "path": "data/ind_fec.csv",
@@ -500,7 +516,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Industry Final Energy Consumption"
     },
     {
       "path": "data/pwr_cap-n.csv",
@@ -529,7 +546,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New Capacity"
     },
     {
       "path": "data/pwr_cap.csv",
@@ -558,7 +576,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Installed Capacity"
     },
     {
       "path": "data/pwr_emissions-co2.csv",
@@ -587,7 +606,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "CO2 Emissions"
     },
     {
       "path": "data/pwr_gen-elcc.csv",
@@ -616,7 +636,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Electricity Generation by PP"
     },
     {
       "path": "data/pwr_gen-hetc.csv",
@@ -645,7 +666,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Heat Generation by PP"
     },
     {
       "path": "data/rsd_bld-n_type.csv",
@@ -674,7 +696,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New Dwellings by Type"
     },
     {
       "path": "data/rsd_bld_type.csv",
@@ -703,7 +726,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Number of Dwellings by Type"
     },
     {
       "path": "data/rsd_fec.csv",
@@ -732,7 +756,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Residential Final Energy Consumption"
     },
     {
       "path": "data/rsd_otherservices_fuelcons.csv",
@@ -761,7 +786,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption for Other Services"
     },
     {
       "path": "data/rsd_rtft-att_ncap.csv",
@@ -790,7 +816,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Retrofits in Attached by Type"
     },
     {
       "path": "data/rsd_rtft-det_ncap.csv",
@@ -819,7 +846,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Retrofits in Detached by Type"
     },
     {
       "path": "data/rsd_rtft_nrg_savings.csv",
@@ -848,7 +876,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Retrofit Energy Savings"
     },
     {
       "path": "data/rsd_services_co2emissions.csv",
@@ -877,7 +906,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "CO2 Emissions by Service"
     },
     {
       "path": "data/rsd_services_energycons.csv",
@@ -906,7 +936,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Energy Consumption by Service"
     },
     {
       "path": "data/rsd_waterspace_fuelcons.csv",
@@ -935,7 +966,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption for Water and Space Heating"
     },
     {
       "path": "data/rsd_ws-apt_fuelcons.csv",
@@ -964,7 +996,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FC for Space/Water in Apartments"
     },
     {
       "path": "data/rsd_ws-apt_ncap.csv",
@@ -993,7 +1026,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New Space/Water in Apartments"
     },
     {
       "path": "data/rsd_ws-att_fuelcons.csv",
@@ -1022,7 +1056,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FC for Space/Water in Attached"
     },
     {
       "path": "data/rsd_ws-att_ncap.csv",
@@ -1051,7 +1086,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New Space/Water in Attached"
     },
     {
       "path": "data/rsd_ws-det_fuelcons.csv",
@@ -1080,7 +1116,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FC for Space/Water in Detached"
     },
     {
       "path": "data/rsd_ws-det_ncap.csv",
@@ -1109,7 +1146,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New Space/Water in Detached"
     },
     {
       "path": "data/srv-com_fec_ws.csv",
@@ -1138,7 +1176,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "TFC - Commercial Space/Water Heating"
     },
     {
       "path": "data/srv-dcs_eh.csv",
@@ -1167,7 +1206,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "DC Total Excess Heat Potential"
     },
     {
       "path": "data/srv-dcs_eh_dh-grid.csv",
@@ -1196,7 +1236,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "DC Excess Heat Supply to DH Grid"
     },
     {
       "path": "data/srv-pub_fec_ws.csv",
@@ -1225,7 +1266,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "TFC - Public Space/Water Heating"
     },
     {
       "path": "data/srv_fec.csv",
@@ -1254,7 +1296,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Services Final Energy Consumption"
     },
     {
       "path": "data/srv_fec_dcs.csv",
@@ -1283,7 +1326,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Data Centre Electricity Demand"
     },
     {
       "path": "data/srv_fec_service.csv",
@@ -1312,7 +1356,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "TFC by Service"
     },
     {
       "path": "data/sup_biodst.csv",
@@ -1341,7 +1386,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Biodiesel Supply by Source"
     },
     {
       "path": "data/sup_bioeth.csv",
@@ -1370,7 +1416,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Ethanol Supply by Source"
     },
     {
       "path": "data/sup_biogas.csv",
@@ -1399,7 +1446,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Biogas Supply by Source"
     },
     {
       "path": "data/sup_hydrogen.csv",
@@ -1428,7 +1476,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Hydrogen Production"
     },
     {
       "path": "data/sys_co2price.csv",
@@ -1457,7 +1506,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Marginal Emission Price"
     },
     {
       "path": "data/sys_cost_sector.csv",
@@ -1486,7 +1536,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Annualised System Costs by Sector"
     },
     {
       "path": "data/sys_cost_type.csv",
@@ -1515,7 +1566,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Annualised System Costs by Type"
     },
     {
       "path": "data/sys_dacs.csv",
@@ -1544,7 +1596,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Unmitigated CO2/backstop"
     },
     {
       "path": "data/sys_emissions_co2_domestic.csv",
@@ -1573,7 +1626,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Domestic CO2 Emissions by Sector"
     },
     {
       "path": "data/sys_fec-biodst_sector.csv",
@@ -1602,7 +1656,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Biodiesel by Sector"
     },
     {
       "path": "data/sys_fec-bioeth_sector.csv",
@@ -1631,7 +1686,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Ethanol by Sector"
     },
     {
       "path": "data/sys_fec-biogas_sector.csv",
@@ -1660,7 +1716,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Biogas by Sector"
     },
     {
       "path": "data/sys_fec-biowoox_sector.csv",
@@ -1689,7 +1746,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Biomass by Sector"
     },
     {
       "path": "data/sys_fec-coa_sector.csv",
@@ -1718,7 +1776,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Coal by Sector"
     },
     {
       "path": "data/sys_fec-elcd_sector.csv",
@@ -1747,7 +1806,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Electricity by Sector"
     },
     {
       "path": "data/sys_fec-gasnat_sector.csv",
@@ -1776,7 +1836,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Nat. Gas by Sector"
     },
     {
       "path": "data/sys_fec-h2_sector.csv",
@@ -1805,7 +1866,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Hydrogen by Sector"
     },
     {
       "path": "data/sys_fec-hetd_sector.csv",
@@ -1834,7 +1896,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Heat by Sector"
     },
     {
       "path": "data/sys_fec-hfo_sector.csv",
@@ -1863,7 +1926,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of HFO by Sector"
     },
     {
       "path": "data/sys_fec-lpg_sector.csv",
@@ -1892,7 +1956,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of LPG by Sector"
     },
     {
       "path": "data/sys_fec-oildst_sector.csv",
@@ -1921,7 +1986,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Diesel by Sector"
     },
     {
       "path": "data/sys_fec-oilgsl_sector.csv",
@@ -1950,7 +2016,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Gasoline by Sector"
     },
     {
       "path": "data/sys_fec-oilker_sector.csv",
@@ -1979,7 +2046,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Kerosene by Sector"
     },
     {
       "path": "data/sys_fec-peat_sector.csv",
@@ -2008,7 +2076,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "FEC of Peat by Sector"
     },
     {
       "path": "data/sys_fec_fuel.csv",
@@ -2037,7 +2106,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": " Final Energy Consumption by Fuel"
     },
     {
       "path": "data/sys_fec_fuel_2.csv",
@@ -2066,7 +2136,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Final Energy Consumption by Fuel"
     },
     {
       "path": "data/sys_fec_sector.csv",
@@ -2095,7 +2166,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Final Energy Consumption by Sector"
     },
     {
       "path": "data/sys_lumpinv_sector.csv",
@@ -2124,7 +2196,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Lump Sum Investment Cost by Sector"
     },
     {
       "path": "data/sys_nrg-export.csv",
@@ -2153,7 +2226,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Export"
     },
     {
       "path": "data/sys_nrg-import.csv",
@@ -2182,7 +2256,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Import"
     },
     {
       "path": "data/sys_nrg-ind_supply.csv",
@@ -2211,7 +2286,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Indigenous Supply"
     },
     {
       "path": "data/sys_tped.csv",
@@ -2240,7 +2316,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Total Primary Energy Demand"
     },
     {
       "path": "data/tra-land_lumpinv.csv",
@@ -2269,7 +2346,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport - Lump Sum Investment Cost"
     },
     {
       "path": "data/tra_avidom_fuelcons.csv",
@@ -2298,7 +2376,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - Domestic Aviation"
     },
     {
       "path": "data/tra_aviint_fuelcons.csv",
@@ -2327,7 +2406,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - International Aviation"
     },
     {
       "path": "data/tra_emissions-co2.csv",
@@ -2356,7 +2436,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "CO2 Emissions"
     },
     {
       "path": "data/tra_f-htruck-n_type.csv",
@@ -2385,7 +2466,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New HGV - Stock by Type"
     },
     {
       "path": "data/tra_f-htruck_type.csv",
@@ -2414,7 +2496,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "HGV - Stock by Type"
     },
     {
       "path": "data/tra_f-ltruck-n_type.csv",
@@ -2443,7 +2526,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New LGV - Stock by Type"
     },
     {
       "path": "data/tra_f-ltruck_type.csv",
@@ -2472,7 +2556,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "LGV - Stock by Type"
     },
     {
       "path": "data/tra_f-mtruck-n_type.csv",
@@ -2501,7 +2586,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New MGV - Stock by Type"
     },
     {
       "path": "data/tra_f-mtruck_type.csv",
@@ -2530,7 +2616,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "MGV - Stock by Type"
     },
     {
       "path": "data/tra_fec.csv",
@@ -2559,7 +2646,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Transport Final Energy Consumption"
     },
     {
       "path": "data/tra_freight_land_fuelcons.csv",
@@ -2588,7 +2676,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - Land Transport (F)"
     },
     {
       "path": "data/tra_freight_land_mode.csv",
@@ -2617,7 +2706,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport (F) by Mode"
     },
     {
       "path": "data/tra_nav_fuelcons.csv",
@@ -2646,7 +2736,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - Navigation"
     },
     {
       "path": "data/tra_oth_fuelcons.csv",
@@ -2675,7 +2766,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - Unspecified"
     },
     {
       "path": "data/tra_p-car-n_type.csv",
@@ -2704,7 +2796,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "New Private Cars - Stock by Type"
     },
     {
       "path": "data/tra_p-car_type.csv",
@@ -2733,7 +2826,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Private Cars - Stock by Type"
     },
     {
       "path": "data/tra_passenger_land_distance.csv",
@@ -2762,7 +2856,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport (P) by Distance"
     },
     {
       "path": "data/tra_passenger_land_fuelcons.csv",
@@ -2791,7 +2886,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - Land Transport (P)"
     },
     {
       "path": "data/tra_passenger_land_mode-l.csv",
@@ -2820,7 +2916,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport (P) - Long"
     },
     {
       "path": "data/tra_passenger_land_mode-m.csv",
@@ -2849,7 +2946,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport (P) - Medium"
     },
     {
       "path": "data/tra_passenger_land_mode-s.csv",
@@ -2878,7 +2976,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport (P) - Short"
     },
     {
       "path": "data/tra_passenger_land_mode.csv",
@@ -2907,7 +3006,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Land Transport (P) by Mode"
     },
     {
       "path": "data/tra_turs_fuelcons.csv",
@@ -2936,7 +3036,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "title": "Fuel Consumption - Tourism"
     }
   ]
 }
