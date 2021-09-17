@@ -34,7 +34,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -65,7 +65,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -96,7 +96,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -127,7 +127,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -158,7 +158,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -189,7 +189,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -220,7 +220,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -251,7 +251,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -282,7 +282,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -313,7 +313,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -344,7 +344,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -375,7 +375,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -406,7 +406,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -437,7 +437,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -468,7 +468,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -499,7 +499,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kt"
+            "unit": "kt"
           }
         ]
       },
@@ -530,7 +530,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -561,7 +561,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "GW"
+            "unit": "GW"
           }
         ]
       },
@@ -592,7 +592,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "GW"
+            "unit": "GW"
           }
         ]
       },
@@ -623,7 +623,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kt"
+            "unit": "kt"
           }
         ]
       },
@@ -654,7 +654,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -685,7 +685,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -716,7 +716,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kDwellings"
+            "unit": "kDwellings"
           }
         ]
       },
@@ -747,7 +747,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kUnits"
+            "unit": "kUnits"
           }
         ]
       },
@@ -778,7 +778,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -809,7 +809,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -840,7 +840,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kUnits"
+            "unit": "kUnits"
           }
         ]
       },
@@ -871,7 +871,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kUnits"
+            "unit": "kUnits"
           }
         ]
       },
@@ -902,7 +902,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -933,7 +933,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kt"
+            "unit": "kt"
           }
         ]
       },
@@ -964,7 +964,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -995,7 +995,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1026,7 +1026,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1057,7 +1057,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kUnits"
+            "unit": "kUnits"
           }
         ]
       },
@@ -1088,7 +1088,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1119,7 +1119,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kUnits"
+            "unit": "kUnits"
           }
         ]
       },
@@ -1150,7 +1150,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1181,7 +1181,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kUnits"
+            "unit": "kUnits"
           }
         ]
       },
@@ -1212,7 +1212,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1243,7 +1243,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1274,7 +1274,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1305,7 +1305,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1336,7 +1336,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1367,7 +1367,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1398,7 +1398,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1429,7 +1429,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1460,7 +1460,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1491,7 +1491,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1522,7 +1522,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1553,7 +1553,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "MEUR/kt"
+            "unit": "MEUR/kt"
           }
         ]
       },
@@ -1584,7 +1584,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "MEUR"
+            "unit": "MEUR"
           }
         ]
       },
@@ -1615,7 +1615,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "MEUR"
+            "unit": "MEUR"
           }
         ]
       },
@@ -1646,7 +1646,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kt"
+            "unit": "kt"
           }
         ]
       },
@@ -1677,7 +1677,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kt"
+            "unit": "kt"
           }
         ]
       },
@@ -1708,7 +1708,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1739,7 +1739,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1770,7 +1770,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1801,7 +1801,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1832,7 +1832,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1863,7 +1863,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1894,7 +1894,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1925,7 +1925,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1956,7 +1956,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -1987,7 +1987,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2018,7 +2018,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2049,7 +2049,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2080,7 +2080,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2111,7 +2111,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2142,7 +2142,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2173,7 +2173,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": null
+            "unit": null
           }
         ]
       },
@@ -2204,7 +2204,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": null
+            "unit": null
           }
         ]
       },
@@ -2235,7 +2235,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2266,7 +2266,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "MEUR"
+            "unit": "MEUR"
           }
         ]
       },
@@ -2297,7 +2297,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": null
+            "unit": null
           }
         ]
       },
@@ -2328,7 +2328,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": null
+            "unit": null
           }
         ]
       },
@@ -2359,7 +2359,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": null
+            "unit": null
           }
         ]
       },
@@ -2390,7 +2390,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": null
+            "unit": null
           }
         ]
       },
@@ -2421,7 +2421,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "MEUR"
+            "unit": "MEUR"
           }
         ]
       },
@@ -2452,7 +2452,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2483,7 +2483,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2514,7 +2514,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kt"
+            "unit": "kt"
           }
         ]
       },
@@ -2545,7 +2545,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2576,7 +2576,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2607,7 +2607,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2638,7 +2638,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2669,7 +2669,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2700,7 +2700,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2731,7 +2731,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2762,7 +2762,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2793,7 +2793,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Btkm"
+            "unit": "Btkm"
           }
         ]
       },
@@ -2824,7 +2824,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2855,7 +2855,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -2886,7 +2886,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2917,7 +2917,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "kVehicles"
+            "unit": "kVehicles"
           }
         ]
       },
@@ -2948,7 +2948,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Bpkm"
+            "unit": "Bpkm"
           }
         ]
       },
@@ -2979,7 +2979,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
@@ -3010,7 +3010,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Bpkm"
+            "unit": "Bpkm"
           }
         ]
       },
@@ -3041,7 +3041,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Bpkm"
+            "unit": "Bpkm"
           }
         ]
       },
@@ -3072,7 +3072,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Bpkm"
+            "unit": "Bpkm"
           }
         ]
       },
@@ -3103,7 +3103,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "Bpkm"
+            "unit": "Bpkm"
           }
         ]
       },
@@ -3134,7 +3134,7 @@
           {
             "name": "value",
             "type": "number",
-            "description": "PJ"
+            "unit": "PJ"
           }
         ]
       },
