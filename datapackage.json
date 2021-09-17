@@ -36,6 +36,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Agriculture Final Energy Consumption"
@@ -67,6 +72,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Chemicals and man-made fibers"
@@ -98,6 +108,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Construction"
@@ -129,6 +144,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Electrical and optical equipment"
@@ -160,6 +180,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Food and beverages"
@@ -191,6 +216,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Machinery and equipment"
@@ -222,6 +252,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Basic metals and fabricated metal products"
@@ -253,6 +288,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Non-energy mining"
@@ -284,6 +324,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Other manufactuting"
@@ -315,6 +360,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Other non-metalic mineral products"
@@ -346,6 +396,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Pulp, paper, publishing and printing"
@@ -377,6 +432,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Rubber and plastic products"
@@ -408,6 +468,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Textiles and textile products"
@@ -439,6 +504,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Transport equipment manufacture"
@@ -470,6 +540,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Wood and wood products"
@@ -501,6 +576,11 @@
             "type": "number",
             "unit": "kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "CO2 Emissions"
@@ -532,6 +612,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Industry Final Energy Consumption"
@@ -563,6 +648,11 @@
             "type": "number",
             "unit": "GW"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New Capacity"
@@ -594,6 +684,11 @@
             "type": "number",
             "unit": "GW"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Installed Capacity"
@@ -625,6 +720,11 @@
             "type": "number",
             "unit": "kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "CO2 Emissions"
@@ -656,6 +756,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Electricity Generation by PP"
@@ -687,6 +792,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Heat Generation by PP"
@@ -718,6 +828,11 @@
             "type": "number",
             "unit": "kDwellings"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New Dwellings by Type"
@@ -749,6 +864,11 @@
             "type": "number",
             "unit": "kUnits"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Number of Dwellings by Type"
@@ -780,6 +900,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Residential Final Energy Consumption"
@@ -811,6 +936,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption for Other Services"
@@ -842,6 +972,11 @@
             "type": "number",
             "unit": "kUnits"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Retrofits in Attached by Type"
@@ -873,6 +1008,11 @@
             "type": "number",
             "unit": "kUnits"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Retrofits in Detached by Type"
@@ -904,6 +1044,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Retrofit Energy Savings"
@@ -935,6 +1080,11 @@
             "type": "number",
             "unit": "kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "CO2 Emissions by Service"
@@ -966,6 +1116,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Energy Consumption by Service"
@@ -997,6 +1152,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption for Water and Space Heating"
@@ -1028,6 +1188,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FC for Space/Water in Apartments"
@@ -1059,6 +1224,11 @@
             "type": "number",
             "unit": "kUnits"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New Space/Water in Apartments"
@@ -1090,6 +1260,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FC for Space/Water in Attached"
@@ -1121,6 +1296,11 @@
             "type": "number",
             "unit": "kUnits"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New Space/Water in Attached"
@@ -1152,6 +1332,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FC for Space/Water in Detached"
@@ -1183,6 +1368,11 @@
             "type": "number",
             "unit": "kUnits"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New Space/Water in Detached"
@@ -1214,6 +1404,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "TFC - Commercial Space/Water Heating"
@@ -1245,6 +1440,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "DC Total Excess Heat Potential"
@@ -1276,6 +1476,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "DC Excess Heat Supply to DH Grid"
@@ -1307,6 +1512,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "TFC - Public Space/Water Heating"
@@ -1338,6 +1548,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Services Final Energy Consumption"
@@ -1369,6 +1584,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Data Centre Electricity Demand"
@@ -1400,6 +1620,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "TFC by Service"
@@ -1431,6 +1656,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Biodiesel Supply by Source"
@@ -1462,6 +1692,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Ethanol Supply by Source"
@@ -1493,6 +1728,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Biogas Supply by Source"
@@ -1524,6 +1764,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Hydrogen Production"
@@ -1555,6 +1800,11 @@
             "type": "number",
             "unit": "MEUR/kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Marginal Emission Price"
@@ -1586,6 +1836,11 @@
             "type": "number",
             "unit": "MEUR"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Annualised System Costs by Sector"
@@ -1617,6 +1872,11 @@
             "type": "number",
             "unit": "MEUR"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Annualised System Costs by Type"
@@ -1648,6 +1908,11 @@
             "type": "number",
             "unit": "kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Unmitigated CO2/backstop"
@@ -1679,6 +1944,11 @@
             "type": "number",
             "unit": "kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Domestic CO2 Emissions by Sector"
@@ -1710,6 +1980,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Biodiesel by Sector"
@@ -1741,6 +2016,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Ethanol by Sector"
@@ -1772,6 +2052,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Biogas by Sector"
@@ -1803,6 +2088,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Biomass by Sector"
@@ -1834,6 +2124,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Coal by Sector"
@@ -1865,6 +2160,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Electricity by Sector"
@@ -1896,6 +2196,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Nat. Gas by Sector"
@@ -1927,6 +2232,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Hydrogen by Sector"
@@ -1958,6 +2268,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Heat by Sector"
@@ -1989,6 +2304,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of HFO by Sector"
@@ -2020,6 +2340,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of LPG by Sector"
@@ -2051,6 +2376,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Diesel by Sector"
@@ -2082,6 +2412,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Gasoline by Sector"
@@ -2113,6 +2448,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Kerosene by Sector"
@@ -2144,6 +2484,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "FEC of Peat by Sector"
@@ -2175,6 +2520,11 @@
             "type": "number",
             "unit": null
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": " Final Energy Consumption by Fuel"
@@ -2206,6 +2556,11 @@
             "type": "number",
             "unit": null
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Final Energy Consumption by Fuel"
@@ -2237,6 +2592,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Final Energy Consumption by Sector"
@@ -2268,6 +2628,11 @@
             "type": "number",
             "unit": "MEUR"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Lump Sum Investment Cost by Sector"
@@ -2299,6 +2664,11 @@
             "type": "number",
             "unit": null
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Export"
@@ -2330,6 +2700,11 @@
             "type": "number",
             "unit": null
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Import"
@@ -2361,6 +2736,11 @@
             "type": "number",
             "unit": null
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Indigenous Supply"
@@ -2392,6 +2772,11 @@
             "type": "number",
             "unit": null
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Total Primary Energy Demand"
@@ -2423,6 +2808,11 @@
             "type": "number",
             "unit": "MEUR"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport - Lump Sum Investment Cost"
@@ -2454,6 +2844,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - Domestic Aviation"
@@ -2485,6 +2880,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - International Aviation"
@@ -2516,6 +2916,11 @@
             "type": "number",
             "unit": "kt"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "CO2 Emissions"
@@ -2547,6 +2952,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New HGV - Stock by Type"
@@ -2578,6 +2988,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "HGV - Stock by Type"
@@ -2609,6 +3024,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New LGV - Stock by Type"
@@ -2640,6 +3060,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "LGV - Stock by Type"
@@ -2671,6 +3096,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New MGV - Stock by Type"
@@ -2702,6 +3132,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "MGV - Stock by Type"
@@ -2733,6 +3168,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Transport Final Energy Consumption"
@@ -2764,6 +3204,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - Land Transport (F)"
@@ -2795,6 +3240,11 @@
             "type": "number",
             "unit": "Btkm"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport (F) by Mode"
@@ -2826,6 +3276,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - Navigation"
@@ -2857,6 +3312,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - Unspecified"
@@ -2888,6 +3348,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "New Private Cars - Stock by Type"
@@ -2919,6 +3384,11 @@
             "type": "number",
             "unit": "kVehicles"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Private Cars - Stock by Type"
@@ -2950,6 +3420,11 @@
             "type": "number",
             "unit": "Bpkm"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport (P) by Distance"
@@ -2981,6 +3456,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - Land Transport (P)"
@@ -3012,6 +3492,11 @@
             "type": "number",
             "unit": "Bpkm"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport (P) - Long"
@@ -3043,6 +3528,11 @@
             "type": "number",
             "unit": "Bpkm"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport (P) - Medium"
@@ -3074,6 +3564,11 @@
             "type": "number",
             "unit": "Bpkm"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport (P) - Short"
@@ -3105,6 +3600,11 @@
             "type": "number",
             "unit": "Bpkm"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Land Transport (P) by Mode"
@@ -3136,6 +3636,11 @@
             "type": "number",
             "unit": "PJ"
           }
+        ],
+        "primary_key": [
+          "scenarioName",
+          "seriesName",
+          "period"
         ]
       },
       "title": "Fuel Consumption - Tourism"
