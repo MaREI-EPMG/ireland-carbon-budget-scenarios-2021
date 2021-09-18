@@ -3644,6 +3644,1214 @@
         ]
       },
       "title": "Fuel Consumption - Tourism"
+    },
+    {
+      "name": "scenarios",
+      "title": "Scenarios",
+      "format": "json",
+      "schema": {
+        "primary_key": "name",
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          }
+        ]
+      },
+      "data": [
+        {
+          "name": "Mitigation_CAP21_A25E65",
+          "title": "A25-E65"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-BioImp",
+          "title": "A25-E65 Bio Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-EA",
+          "title": "A25-E65 Early Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-H2Imp",
+          "title": "A25-E65 H2 Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-LA",
+          "title": "A25-E65 Late Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-LED",
+          "title": "A25-E65 LED"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-LED-techOptimism",
+          "title": "A25-E65 LED Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-earlyCCS",
+          "title": "A25-E65 Early CCS"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-highREN",
+          "title": "A25-E65 High REN"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-lowBio",
+          "title": "A25-E65 Low Bio"
+        },
+        {
+          "name": "Mitigation_CAP21_A25E65-techOptimism",
+          "title": "A25-E65 Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61",
+          "title": "A33-E61"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-BioImp",
+          "title": "A33-E61 Bio Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-EA",
+          "title": "A33-E61 Early Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-H2Imp",
+          "title": "A33-E61 H2 Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-LA",
+          "title": "A33-E61 Late Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-LED",
+          "title": "A33-E61 LED"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-LED-techOptimism",
+          "title": "A33-E61 LED Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-earlyCCS",
+          "title": "A33-E61 Early CCS"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-highREN",
+          "title": "A33-E61 High REN"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-lowBio",
+          "title": "A33-E61 Low Bio"
+        },
+        {
+          "name": "Mitigation_CAP21_A33E61-techOptimism",
+          "title": "A33-E61 Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57",
+          "title": "A40-E57"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-BioImp",
+          "title": "A40-E57 Bio Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-EA",
+          "title": "A40-E57 Early Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-H2Imp",
+          "title": "A40-E57 H2 Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-LA",
+          "title": "A40-E57 Late Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-LED",
+          "title": "A40-E57 LED"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-LED-techOptimism",
+          "title": "A40-E57 LED Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-earlyCCS",
+          "title": "A40-E57 Early CCS"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-highREN",
+          "title": "A40-E57 High REN"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-lowBio",
+          "title": "A40-E57 Low Bio"
+        },
+        {
+          "name": "Mitigation_CAP21_A40E57-techOptimism",
+          "title": "A40-E57 Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51",
+          "title": "A51-E51"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-BioImp",
+          "title": "A51-E51 Bio Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-EA",
+          "title": "A51-E51 Early Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-H2Imp",
+          "title": "A51-E51 H2 Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-LA",
+          "title": "A51-E51 Late Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-LED",
+          "title": "A51-E51 LED"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-LED-techOptimism",
+          "title": "A51-E51 LED Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-earlyCCS",
+          "title": "A51-E51 Early CCS"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-highREN",
+          "title": "A51-E51 High REN"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-lowBio",
+          "title": "A51-E51 Low Bio"
+        },
+        {
+          "name": "Mitigation_CAP21_A51E51-techOptimism",
+          "title": "A51-E51 Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49",
+          "title": "A55-E49"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-BioImp",
+          "title": "A55-E49 Bio Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-EA",
+          "title": "A55-E49 Early Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-H2Imp",
+          "title": "A55-E49 H2 Import"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-LA",
+          "title": "A55-E49 Late Action"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-LED",
+          "title": "A55-E49 LED"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-LED-techOptimism",
+          "title": "A55-E49 LED Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-earlyCCS",
+          "title": "A55-E49 Early CCS"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-highREN",
+          "title": "A55-E49 High REN"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-lowBio",
+          "title": "A55-E49 Low Bio"
+        },
+        {
+          "name": "Mitigation_CAP21_A55E49-techOptimism",
+          "title": "A55-E49 Tech-Optimism"
+        },
+        {
+          "name": "Mitigation_WAM",
+          "title": "WAM"
+        },
+        {
+          "name": "No_Mitigation",
+          "title": "No Mitigation"
+        }
+      ]
+    },
+    {
+      "name": "series",
+      "title": "Series",
+      "format": "json",
+      "schema": {
+        "primary_key": "name",
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          }
+        ]
+      },
+      "data": [
+        {
+          "name": "AGRBDL",
+          "title": "Biodiesel"
+        },
+        {
+          "name": "AGRBIO",
+          "title": "Biomass"
+        },
+        {
+          "name": "AGRDST",
+          "title": "Diesel"
+        },
+        {
+          "name": "AGRELC",
+          "title": "Electricity"
+        },
+        {
+          "name": "AGRGAS",
+          "title": "Nat. gas"
+        },
+        {
+          "name": "AGRGEO",
+          "title": "Geothermal"
+        },
+        {
+          "name": "AGRLPG",
+          "title": "LPG"
+        },
+        {
+          "name": "AGRSOL",
+          "title": "Solar"
+        },
+        {
+          "name": "INDBDL",
+          "title": "Biodiesel"
+        },
+        {
+          "name": "INDBGS",
+          "title": "Biogas"
+        },
+        {
+          "name": "INDBKE",
+          "title": "Biokerosene"
+        },
+        {
+          "name": "INDCOK",
+          "title": "Coke"
+        },
+        {
+          "name": "INDDST",
+          "title": "Diesel"
+        },
+        {
+          "name": "INDELC",
+          "title": "Electricity"
+        },
+        {
+          "name": "INDGAS",
+          "title": "Nat. gas"
+        },
+        {
+          "name": "INDHFO",
+          "title": "HFO"
+        },
+        {
+          "name": "INDKER",
+          "title": "Kerosene"
+        },
+        {
+          "name": "INDLPG",
+          "title": "LPG"
+        },
+        {
+          "name": "INDBIO",
+          "title": "Biomass"
+        },
+        {
+          "name": "INDCOA",
+          "title": "Coal"
+        },
+        {
+          "name": "INDPEA",
+          "title": "Peat"
+        },
+        {
+          "name": "INDH2G",
+          "title": "Hydrogen"
+        },
+        {
+          "name": "INDNWS",
+          "title": "Non-ren. waste"
+        },
+        {
+          "name": "INDRWS",
+          "title": "Ren. waste"
+        },
+        {
+          "name": "DMD_IND-CAF",
+          "title": "Chemicals and man-made fibers"
+        },
+        {
+          "name": "DMD_IND-CON",
+          "title": "Construction"
+        },
+        {
+          "name": "DMD_IND-EOE",
+          "title": "Electrical and optical equipment"
+        },
+        {
+          "name": "DMD_IND-FAB",
+          "title": "Food and beverages"
+        },
+        {
+          "name": "DMD_IND-MAE",
+          "title": "Machinery and equipment"
+        },
+        {
+          "name": "DMD_IND-MAP",
+          "title": "Basic metals and fabricated metal products"
+        },
+        {
+          "name": "DMD_IND-NEM",
+          "title": "Non-energy mining"
+        },
+        {
+          "name": "DMD_IND-OMA",
+          "title": "Other manufactuting"
+        },
+        {
+          "name": "DMD_IND-ONM",
+          "title": "Other non-metalic mineral products"
+        },
+        {
+          "name": "DMD_IND-PX4",
+          "title": "Pulp, paper, publishing and printing"
+        },
+        {
+          "name": "DMD_IND-RAP",
+          "title": "Rubber and plastic products"
+        },
+        {
+          "name": "DMD_IND-TAP",
+          "title": "Textiles and textile products"
+        },
+        {
+          "name": "DMD_IND-TEM",
+          "title": "Transport equipment manufacture"
+        },
+        {
+          "name": "DMD_IND-WAP",
+          "title": "Wood and wood products"
+        },
+        {
+          "name": "PWR-BIO",
+          "title": "Biomass"
+        },
+        {
+          "name": "PWR-BIO-CCS",
+          "title": "Biomass CCS"
+        },
+        {
+          "name": "PWR-COA",
+          "title": "Coal"
+        },
+        {
+          "name": "PWR-GAS",
+          "title": "Natural Gas"
+        },
+        {
+          "name": "PWR-GAS-CCS",
+          "title": "Gas CCS"
+        },
+        {
+          "name": "PWR-HYD",
+          "title": "Hydro"
+        },
+        {
+          "name": "PWR-OIL",
+          "title": "Oil"
+        },
+        {
+          "name": "PWR-PEA",
+          "title": "Peat"
+        },
+        {
+          "name": "PWR-SOL",
+          "title": "Solar"
+        },
+        {
+          "name": "PWR-WIN-OF",
+          "title": "Wind Offshore"
+        },
+        {
+          "name": "PWR-WIN-ON",
+          "title": "Wind Onshore"
+        },
+        {
+          "name": "DMD_RSD-BLD-APT",
+          "title": "Apartments"
+        },
+        {
+          "name": "DMD_RSD-BLD-ATT",
+          "title": "Attached"
+        },
+        {
+          "name": "DMD_RSD-BLD-DET",
+          "title": "Detached"
+        },
+        {
+          "name": "RSDAHT",
+          "title": "Ambient Heat"
+        },
+        {
+          "name": "RSDAHT2",
+          "title": "Ambient Heat*"
+        },
+        {
+          "name": "RSDBDL",
+          "title": "Biodiesel"
+        },
+        {
+          "name": "RSDCOA",
+          "title": "Coal"
+        },
+        {
+          "name": "RSDELC",
+          "title": "Electricity"
+        },
+        {
+          "name": "RSDETH",
+          "title": "Ethanol"
+        },
+        {
+          "name": "RSDGAS",
+          "title": "Nat. gas"
+        },
+        {
+          "name": "RSDHET",
+          "title": "Heat"
+        },
+        {
+          "name": "RSDKER",
+          "title": "Kerosene"
+        },
+        {
+          "name": "RSDLPG",
+          "title": "LPG"
+        },
+        {
+          "name": "RSDPEA",
+          "title": "Peat"
+        },
+        {
+          "name": "RSDSOL",
+          "title": "Solar"
+        },
+        {
+          "name": "RSDWOO",
+          "title": "Biomass"
+        },
+        {
+          "name": "R-RTFT-Att_Deep",
+          "title": "Deep retrofit"
+        },
+        {
+          "name": "R-RTFT-Att_Shallow",
+          "title": "Shallow retrofit"
+        },
+        {
+          "name": "R-RTFT-Det_Deep",
+          "title": "Deep retrofit"
+        },
+        {
+          "name": "R-RTFT-Det_Shallow",
+          "title": "Shallow retrofit"
+        },
+        {
+          "name": "RSDSH_Att",
+          "title": "Attached"
+        },
+        {
+          "name": "RSDSH_Det",
+          "title": "Detached"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-CK",
+          "title": "Cooking"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-WS",
+          "title": "Water and space"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-CD",
+          "title": "Cloth drying"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-CW",
+          "title": "Cloth washing"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-DW",
+          "title": "Dish washing"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-LT",
+          "title": "Lighting"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-OE",
+          "title": "Other applications"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-PF",
+          "title": "Pumps and fans"
+        },
+        {
+          "name": "RSD_BLD-XXX_NRGSRV-RF",
+          "title": "Refrigeration"
+        },
+        {
+          "name": "R-SC_Apt_ELC_N1",
+          "title": "AC"
+        },
+        {
+          "name": "R-SW_Apt_ELC_HPN1",
+          "title": "HP A/W SW"
+        },
+        {
+          "name": "R-SW_Apt_GAS_N1",
+          "title": "Gas boiler SW"
+        },
+        {
+          "name": "R-SW_Apt_HET_N1",
+          "title": "DH (C) SW"
+        },
+        {
+          "name": "R-SW_Apt_HET_N2",
+          "title": "DH (D) SW"
+        },
+        {
+          "name": "R-HC_Att_ELC_HPN2",
+          "title": "HP G/W H&C"
+        },
+        {
+          "name": "R-SC_Att_ELC_N1",
+          "title": "AC"
+        },
+        {
+          "name": "R-SH_Att_ELC_N1",
+          "title": "El. heater SH"
+        },
+        {
+          "name": "R-SW_Att_ELC_HPN1",
+          "title": "HP A/W SW"
+        },
+        {
+          "name": "R-SW_Att_GAS_N1",
+          "title": "Gas boiler SW"
+        },
+        {
+          "name": "R-SW_Att_HET_N1",
+          "title": "DH (C) SW"
+        },
+        {
+          "name": "R-SW_Att_HET_N2",
+          "title": "DH (D) SW"
+        },
+        {
+          "name": "R-SW_Att_HVO_N1",
+          "title": "HVO SW"
+        },
+        {
+          "name": "R-WH_Att_ELC_N1",
+          "title": "Electric WH"
+        },
+        {
+          "name": "R-HC_Det_ELC_HPN2",
+          "title": "HP G/W H&C"
+        },
+        {
+          "name": "R-SC_Det_ELC_N1",
+          "title": "AC"
+        },
+        {
+          "name": "R-SH_Det_ELC_N1",
+          "title": "El. heater SH"
+        },
+        {
+          "name": "R-SH_Det_FPL_N1",
+          "title": "Stove SH"
+        },
+        {
+          "name": "R-SW_Det_ELC_HPN1",
+          "title": "HP A/W SW"
+        },
+        {
+          "name": "R-SW_Det_GAS_HHPN1",
+          "title": "Gas hybrid HP A/W SW"
+        },
+        {
+          "name": "R-SW_Det_GAS_N1",
+          "title": "Gas boiler SW"
+        },
+        {
+          "name": "R-SW_Det_HET_N1",
+          "title": "DH (C) SW"
+        },
+        {
+          "name": "R-SW_Det_HET_N2",
+          "title": "DH (D) SW"
+        },
+        {
+          "name": "R-WH_Det_ELC_N1",
+          "title": "Electric WH"
+        },
+        {
+          "name": "SRVAHT",
+          "title": "Ambient Heat"
+        },
+        {
+          "name": "SRVAHT2",
+          "title": "Ambient Heat*"
+        },
+        {
+          "name": "SRVBGS",
+          "title": "Biogas"
+        },
+        {
+          "name": "SRVBIO",
+          "title": "Biomass"
+        },
+        {
+          "name": "SRVCOA",
+          "title": "Coal"
+        },
+        {
+          "name": "SRVELC",
+          "title": "Electricity"
+        },
+        {
+          "name": "SRVGAS",
+          "title": "Nat. gas"
+        },
+        {
+          "name": "SRVHET",
+          "title": "District Heat"
+        },
+        {
+          "name": "SRVOIL",
+          "title": "Oil"
+        },
+        {
+          "name": "SRVSOL",
+          "title": "Solar"
+        },
+        {
+          "name": "SRVHET-DC-LT",
+          "title": "Low Temp. Heat"
+        },
+        {
+          "name": "HETC",
+          "title": "Heat"
+        },
+        {
+          "name": "SRVELC-DC-C",
+          "title": "El. for cooling"
+        },
+        {
+          "name": "SRVLPG",
+          "title": "LPG"
+        },
+        {
+          "name": "DMD_SRV-CS_DC",
+          "title": "DC"
+        },
+        {
+          "name": "DMD_SRV-PU_PLIG",
+          "title": "PLIG"
+        },
+        {
+          "name": "SRV-CS_NRGSRV-CK",
+          "title": "CS-CK"
+        },
+        {
+          "name": "SRV-CS_NRGSRV-LIG",
+          "title": "CS-LIG"
+        },
+        {
+          "name": "SRV-CS_NRGSRV-OEL",
+          "title": "CS-OEL"
+        },
+        {
+          "name": "SRV-CS_NRGSRV-REF",
+          "title": "CS-REF"
+        },
+        {
+          "name": "SRV-CS_NRGSRV-WS",
+          "title": "CS-WS"
+        },
+        {
+          "name": "SRV-PU_NRGSRV-CK",
+          "title": "PU-CK"
+        },
+        {
+          "name": "SRV-PU_NRGSRV-LIG",
+          "title": "PU-LIG"
+        },
+        {
+          "name": "SRV-PU_NRGSRV-OEL",
+          "title": "PU-OEL"
+        },
+        {
+          "name": "SRV-PU_NRGSRV-REF",
+          "title": "PU-REF"
+        },
+        {
+          "name": "SRV-PU_NRGSRV-WS",
+          "title": "PU-WS"
+        },
+        {
+          "name": "IMPBIODST1G_S1",
+          "title": "BD import (1G-S1)"
+        },
+        {
+          "name": "IMPBIODST1G_S2",
+          "title": "BD import (1G-S2)"
+        },
+        {
+          "name": "SBIORDST01",
+          "title": "OSR"
+        },
+        {
+          "name": "SBIORDST02",
+          "title": "Woody biomass"
+        },
+        {
+          "name": "SBIORDST03",
+          "title": "Ind. food waste"
+        },
+        {
+          "name": "SBIORDST04",
+          "title": "RVO"
+        },
+        {
+          "name": "SBIORDST05",
+          "title": "Tallow"
+        },
+        {
+          "name": "IMPBIOETH1G_S1",
+          "title": "BE import (1G-S1)"
+        },
+        {
+          "name": "IMPBIOETH1G_S2",
+          "title": "ET import (1G-S2)"
+        },
+        {
+          "name": "SBIORETH01",
+          "title": "Wheat"
+        },
+        {
+          "name": "SBIORETH02",
+          "title": "Woody biomass"
+        },
+        {
+          "name": "SBIORETH03",
+          "title": "Grass"
+        },
+        {
+          "name": "SBIORGAS01",
+          "title": "Grass"
+        },
+        {
+          "name": "SBIORGAS02",
+          "title": "Woody biomass"
+        },
+        {
+          "name": "SBIORGAS03",
+          "title": "MS waste"
+        },
+        {
+          "name": "SBIORGAS05",
+          "title": "Cattle waste"
+        },
+        {
+          "name": "SBIORGAS06",
+          "title": "Pig waste"
+        },
+        {
+          "name": "SH2PCELC_01",
+          "title": "Electrolyser (C)"
+        },
+        {
+          "name": "SH2PDELC_01",
+          "title": "Electrolyser (D)"
+        },
+        {
+          "name": "ENV-CO2",
+          "title": "CO2"
+        },
+        {
+          "name": "PRC_AGR",
+          "title": "Agriculture"
+        },
+        {
+          "name": "PRC_IND",
+          "title": "Industry"
+        },
+        {
+          "name": "PRC_PWR",
+          "title": "Power"
+        },
+        {
+          "name": "PRC_RSD",
+          "title": "Residential"
+        },
+        {
+          "name": "PRC_SRV",
+          "title": "Services"
+        },
+        {
+          "name": "PRC_SUP",
+          "title": "Supply"
+        },
+        {
+          "name": "PRC_TRA",
+          "title": "Transport"
+        },
+        {
+          "name": "FIX",
+          "title": "Fixed"
+        },
+        {
+          "name": "INV",
+          "title": "Investment"
+        },
+        {
+          "name": "VAR",
+          "title": "Variable"
+        },
+        {
+          "name": "AGRCO2N",
+          "title": "Agriculture"
+        },
+        {
+          "name": "INDCO2P",
+          "title": "Ind. Process"
+        },
+        {
+          "name": "INDCO2N",
+          "title": "Industry"
+        },
+        {
+          "name": "PWRCO2N",
+          "title": "Power Generation"
+        },
+        {
+          "name": "RSDCO2",
+          "title": "Residential"
+        },
+        {
+          "name": "SRVCO2N",
+          "title": "Services"
+        },
+        {
+          "name": "TRACO2N",
+          "title": "Transport"
+        },
+        {
+          "name": "FT_AGR",
+          "title": "Agriculture"
+        },
+        {
+          "name": "FT_IND",
+          "title": "Industry"
+        },
+        {
+          "name": "FT_RSD",
+          "title": "Residential"
+        },
+        {
+          "name": "FT_TRA",
+          "title": "Transport"
+        },
+        {
+          "name": "FT_SRV",
+          "title": "Services"
+        },
+        {
+          "name": "SEAI_BIOENERGY",
+          "title": "Bioenergy"
+        },
+        {
+          "name": "SEAI_COAL",
+          "title": "Coal"
+        },
+        {
+          "name": "SEAI_ELECTRICITY",
+          "title": "Electricity"
+        },
+        {
+          "name": "SEAI_HEAT",
+          "title": "Heat"
+        },
+        {
+          "name": "SEAI_HYDROGEN",
+          "title": "Hydrogen"
+        },
+        {
+          "name": "SEAI_NATGAS",
+          "title": "Natural gas"
+        },
+        {
+          "name": "SEAI_OIL",
+          "title": "Oil"
+        },
+        {
+          "name": "SEAI_OTHER_RENEWABLES",
+          "title": "Other renewables"
+        },
+        {
+          "name": "SEAI_PEAT",
+          "title": "Peat"
+        },
+        {
+          "name": "DMD_TRA-F-LAND",
+          "title": "Freight (land)"
+        },
+        {
+          "name": "DMD_TRA-P-LAND",
+          "title": "Passenger (land)"
+        },
+        {
+          "name": "TRABJK",
+          "title": "Bio jet kerosene"
+        },
+        {
+          "name": "TRAKER",
+          "title": "Kerosene"
+        },
+        {
+          "name": "DMD_TRA-R-AVIDOM",
+          "title": "Domestic Aviation"
+        },
+        {
+          "name": "DMD_TRA-R-AVIINT",
+          "title": "International Aviation"
+        },
+        {
+          "name": "DMD_TRA-R-NAV",
+          "title": "Navigation"
+        },
+        {
+          "name": "DMD_TRA-R-OTH",
+          "title": "Unspecified"
+        },
+        {
+          "name": "DMD_TRA-R-TURS",
+          "title": "Tourism"
+        },
+        {
+          "name": "DMD_TRA-F-HTRUCK-BEV",
+          "title": "BEV"
+        },
+        {
+          "name": "DMD_TRA-F-HTRUCK-FCV",
+          "title": "FCV"
+        },
+        {
+          "name": "DMD_TRA-F-HTRUCK-HEV",
+          "title": "HEV"
+        },
+        {
+          "name": "DMD_TRA-F-HTRUCK-ICE",
+          "title": "ICE"
+        },
+        {
+          "name": "DMD_TRA-F-LTRUCK-BEV",
+          "title": "BEV"
+        },
+        {
+          "name": "DMD_TRA-F-LTRUCK-HEV",
+          "title": "HEV"
+        },
+        {
+          "name": "DMD_TRA-F-LTRUCK-ICE",
+          "title": "ICE"
+        },
+        {
+          "name": "DMD_TRA-F-LTRUCK-PHEV",
+          "title": "PHEV"
+        },
+        {
+          "name": "DMD_TRA-F-MTRUCK-BEV",
+          "title": "BEV"
+        },
+        {
+          "name": "DMD_TRA-F-MTRUCK-FCV",
+          "title": "FCV"
+        },
+        {
+          "name": "DMD_TRA-F-MTRUCK-HEV",
+          "title": "HEV"
+        },
+        {
+          "name": "DMD_TRA-F-MTRUCK-ICE",
+          "title": "ICE"
+        },
+        {
+          "name": "TRABDL",
+          "title": "Biodiesel"
+        },
+        {
+          "name": "TRABNG",
+          "title": "Bio CNG"
+        },
+        {
+          "name": "TRACNG",
+          "title": "CNG"
+        },
+        {
+          "name": "TRADST",
+          "title": "Diesel"
+        },
+        {
+          "name": "TRAELC",
+          "title": "Electricity"
+        },
+        {
+          "name": "TRAETH",
+          "title": "Ethanol"
+        },
+        {
+          "name": "TRAGSL",
+          "title": "Gasoline"
+        },
+        {
+          "name": "TRAH2",
+          "title": "Hydrogen"
+        },
+        {
+          "name": "TRALNG",
+          "title": "LNG"
+        },
+        {
+          "name": "DMD_TRA-F-HTRUCK",
+          "title": "Heavy truck"
+        },
+        {
+          "name": "DMD_TRA-F-LTRUCK",
+          "title": "Light truck"
+        },
+        {
+          "name": "DMD_TRA-F-MTRUCK",
+          "title": "Medium truck"
+        },
+        {
+          "name": "DMD_TRA-F-TRAIN",
+          "title": "Train"
+        },
+        {
+          "name": "DMD_TRA-P-CAR-BEV",
+          "title": "BEV"
+        },
+        {
+          "name": "DMD_TRA-P-CAR-HEV",
+          "title": "HEV"
+        },
+        {
+          "name": "DMD_TRA-P-CAR-ICE",
+          "title": "ICE"
+        },
+        {
+          "name": "DMD_TRA-P-CAR-PHEV",
+          "title": "PHEV"
+        },
+        {
+          "name": "TRAPL",
+          "title": "Long-range"
+        },
+        {
+          "name": "TRAPM",
+          "title": "Medium-range"
+        },
+        {
+          "name": "TRAPS",
+          "title": "Short-range"
+        },
+        {
+          "name": "DMD_TRA-P-ACTIVE",
+          "title": "Active modes"
+        },
+        {
+          "name": "DMD_TRA-P-BUS",
+          "title": "Bus"
+        },
+        {
+          "name": "DMD_TRA-P-CAR",
+          "title": "Private car"
+        },
+        {
+          "name": "DMD_TRA-P-HPT",
+          "title": "Heavy train"
+        },
+        {
+          "name": "DMD_TRA-P-LPT",
+          "title": "Light train"
+        },
+        {
+          "name": "DMD_TRA-P-MOT",
+          "title": "Motocycle"
+        },
+        {
+          "name": "DMD_TRA-P-TAXI",
+          "title": "Taxi"
+        },
+        {
+          "name": "PWR-H2",
+          "title": "Hydrogen"
+        },
+        {
+          "name": "R-SW_Det_HVO_N1",
+          "title": "HVO SW"
+        },
+        {
+          "name": "R-SW_Att_GAS_HHPN1",
+          "title": "Gas hybrid HP A/W SW"
+        },
+        {
+          "name": "AGRHET",
+          "title": "Heat"
+        },
+        {
+          "name": "PWR-MSW",
+          "title": "Municipal Waste"
+        },
+        {
+          "name": "R-SW_Det_LPG_N1",
+          "title": "LPG SW"
+        }
+      ]
     }
   ]
 }
