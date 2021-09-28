@@ -17,7 +17,7 @@ The [TIM Carbon Budgets 2021 Web App][TIM Carbon Budgets 2021 SPA] visualises mo
 
 ### pyam
 
-[pyam][pyam github repository] provides a suite of tools and functions that can be used to analyse and visualise scenario data included in this data package. A brief pyam-tutorial is included in this repository (many thanks to [@danielhuppmann](https://github.com/danielhuppmann/) for contributing).
+[pyam][pyam github repository] provides a suite of tools and functions that can be used to analyse and visualise scenario data included in this data package. A brief pyam-tutorial is included in this repository (many thanks to [@danielhuppmann](https://github.com/danielhuppmann/) for contributing) and the rendered version can be accessed [here][rendered pyam-tutorial].
 
 ### Friendly data
 
@@ -34,3 +34,4 @@ dfs = [to_df(r) for r in pkg.resources]   # data package as a list of pandas.Dat
 [TIM Carbon Budgets 2021 SPA]: https://tim-carbon-budgets-2021.netlify.app/results
 [pyam github repository]: https://github.com/IAMconsortium/pyam
 [friendly_data github repository]: https://github.com/sentinel-energy/friendly_data
+[rendered pyam-tutorial]: https://github.com/MaREI-EPMG/ireland-carbon-budget-scenarios-2021/blob/main/pyam-tutorial.ipynb
