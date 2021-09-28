@@ -6,3 +6,31 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5517363.svg)](https://doi.org/10.5281/zenodo.5517363)
 
 This repository constains energy system scenarios for Ireland meeting decarbonisation targets for 2030 and 2050 using the TIMES-Ireland Model (TIM).
+
+## Exploring the Scenarios
+
+Various tools can be used to explore the scenarios in this data package. These include a dedicated [web app][TIM Carbon Budgets 2021 SPA], [pyam][pyam github repository] package, [Friendly data][friendly_data github repository] and spreadsheet software (e.g. MS Excel).
+
+### TIM Carbon Budgets 2021 Web App
+
+The [TIM Carbon Budgets 2021 Web App][TIM Carbon Budgets 2021 SPA] visualises most of the scenarios included in this data package. Up to two scenarios can be selected for comparisson and the difference can be computed. Please note that **About**, **Scenarios** and **Documentation** pages are pending update.
+
+### pyam
+
+[pyam][pyam github repository] provides a suite of tools and functions that can be used to analyse and visualise scenario data included in this data package. A brief pyam-tutorial is included in this repository (many thanks to [@danielhuppmann](https://github.com/danielhuppmann/) for contributing).
+
+### Friendly data
+
+[Friendly data][friendly_data github repository] allows easy conversion of a frictionless data package to standard Python data structures e.g., pandas DataFrame. For instance the following code snippet can be used to convert the data package to a list of pandas DataFrame (many thanks to [@suvayu](https://github.com/suvayu/) for providing an example):
+```
+from friendly_data.dpkg import read_pkg
+from friendly_data.converters import to_df
+
+pkg = read_pkg("datapacakge.json")
+
+dfs = [to_df(r) for r in pkg.resources]   # data package as a list of pandas.DataFrame
+``` 
+
+[TIM Carbon Budgets 2021 SPA]: https://tim-carbon-budgets-2021.netlify.app/results
+[pyam github repository]: https://github.com/IAMconsortium/pyam
+[friendly_data github repository]: https://github.com/sentinel-energy/friendly_data
