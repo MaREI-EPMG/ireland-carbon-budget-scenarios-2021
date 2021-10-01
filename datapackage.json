@@ -3649,7 +3649,8 @@
     {
       "name": "scenarios",
       "title": "Scenarios",
-      "format": "json",
+      "profile": "tabular-data-resource",
+      "format": "inline",
       "schema": {
         "primary_key": "name",
         "fields": [
@@ -3897,7 +3898,8 @@
     {
       "name": "series",
       "title": "Series",
-      "format": "json",
+      "profile": "tabular-data-resource",
+      "format": "inline",
       "schema": {
         "primary_key": "name",
         "fields": [
