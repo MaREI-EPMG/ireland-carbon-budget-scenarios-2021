@@ -17,4 +17,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Validate data
-        uses: frictionlessdata/repository@v0.8.0 # update to the latest version
+        uses: frictionlessdata/repository@v1.0.0
