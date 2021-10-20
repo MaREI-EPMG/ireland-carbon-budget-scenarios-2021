@@ -3664,6 +3664,11 @@
           }
         ]
       },
+      "scheme": "",
+      "hashing": "md5",
+      "dialect": {
+        "keyed": true
+      },
       "data": [
         {
           "name": "Mitigation_CAP21_A25E65",
@@ -3912,6 +3917,11 @@
             "type": "string"
           }
         ]
+      },
+      "scheme": "",
+      "hashing": "md5",
+      "dialect": {
+        "keyed": true
       },
       "data": [
         {
@@ -4856,5 +4866,6 @@
         }
       ]
     }
-  ]
+  ],
+  "profile": "data-package"
 }
