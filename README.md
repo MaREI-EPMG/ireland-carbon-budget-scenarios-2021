@@ -26,7 +26,7 @@ The [TIM Carbon Budgets 2021 Web App][TIM Carbon Budgets 2021 SPA] visualises mo
 from friendly_data.dpkg import read_pkg
 from friendly_data.converters import to_df
 
-pkg = read_pkg("datapacakge.json")
+pkg = read_pkg("datapackage.json")
 
 dfs = [to_df(r) for r in pkg.resources]   # data package as a list of pandas.DataFrame
 ``` 
